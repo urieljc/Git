@@ -55,4 +55,9 @@ git reflog
 - va al commint asignado pero manteniendo la modificacion de ahi para adelante
 git reset --mixed id-commit
 
+- para crear un directorio donde se almacenaran los nombre de archivos
+    que no se desean que se controle
+
+.gitignore -> almacenar el nombre de los archivos /folfer/ *nombre, nombre*
+
 
