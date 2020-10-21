@@ -1,0 +1,5 @@
+git --version       saber la version del git
+
+git config --global user.name "nombre"
+git config --global user.email "correo"
+git config --global -l   / saber quien es el usuario de la maquina
