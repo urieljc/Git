@@ -3,3 +3,23 @@ git --version       saber la version del git
 git config --global user.name "nombre"
 git config --global user.email "correo"
 git config --global -l   / saber quien es el usuario de la maquina
+
+- crear el repositorio
+git init
+
+-mostrar el estado del repositorio
+git status
+
+-adicionar el repositorio
+git add .
+git status
+
+- crear un lista para confirmar los cambios
+git commit -m "mensaje"
+
+- ver la modificacion de lo ultimo que se confirmo
+git diff
+
+-para volver al anterior commit sin modificar
+git checkout .
+
