@@ -23,3 +23,36 @@ git diff
 -para volver al anterior commit sin modificar
 git checkout .
 
+- ver los cambios realizados en el repositorio / ver los commit realizados
+git log
+
+ (salir del mensaje END  - q)
+
+- para agregar cambios esepcificos 
+git add nombre_crchivo
+git add archivo/*.terminacion
+
+- para quitar un archivo del estado de agregacion
+git reset nombre_archivo
+
+- poder modificar el mensaje del ultimo commit
+git commit --amend -m "mensaje corregido"
+
+- cambiar el nombre del archivo gestionado por git
+git mv nombre_antiguo nombre_nuevo
+
+- eliminar un archivo desde git
+git rm nombre_archivo
+
+-realizar un paso atraz de lo realizado de la modificacion
+git reset --soft id-commit
+
+git reset --hard id-commit (recuepra el archivo elimianado)
+
+- ver todo el historico del git 
+git reflog
+
+- va al commint asignado pero manteniendo la modificacion de ahi para adelante
+git reset --mixed id-commit
+
+
