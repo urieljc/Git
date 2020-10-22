@@ -108,6 +108,8 @@ git clone http://pagina
 -mandar el cambio al github
 git push origin master
 
+- actualizar lo que esta en github al repositorio manejado
+git pull 
 
 
 
