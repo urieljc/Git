@@ -81,5 +81,19 @@ git branch -d nombre_rama
 - crear la rama e ingresar automaticamente
 git checkout -b nombre_rama
 
------------------------------------------------------------
------resolver conflicto entre ramas-------
+--------------etiquetas-----------
+- crear una etiquetas
+git tag nombre_etiqueta
+
+-eliminar el nombre de la etiquetas
+git tag -d nombre_etiqueta
+
+- mostrar versionamiento de la etiquetas
+git tag -a v1.x.x -m "nombre version"
+
+-mostrar el continedo de la etiqueta versionada
+git show v1.x.x
+
+- indicar un commit un tag
+git tag -a vX.x.x indicador -m "mensaje"
+
