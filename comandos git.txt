@@ -61,3 +61,25 @@ git reset --mixed id-commit
 .gitignore -> almacenar el nombre de los archivos /folfer/ *nombre, nombre*
 
 
+-----------CREACION DE RAMAS ----------------
+--fast corward (que no interfiera con la rama master)--
+-crear una nueva RAMAS
+git branch nombre_rama
+
+-poder ver resumidamente todos las ramas 
+git log --oneline --decorate --all --graph
+
+-ingresar a la rama asignada
+git checkout nombre_rama
+
+- unir la rama principal con la rama secundaria creada
+git merge rama_secundaria
+
+- borrar la rama secundaria ya fucionada
+git branch -d nombre_rama
+
+- crear la rama e ingresar automaticamente
+git checkout -b nombre_rama
+
+-----------------------------------------------------------
+-----resolver conflicto entre ramas-------
