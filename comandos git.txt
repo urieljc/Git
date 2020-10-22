@@ -97,3 +97,39 @@ git show v1.x.x
 - indicar un commit un tag
 git tag -a vX.x.x indicador -m "mensaje"
 
+------------trabajo con github----------
+- enlazar a la cuenta github
+git remote add origin http://pagina
+git push -u origin master
+
+-clonar el proyecto de github
+git clone http://pagina
+
+-mandar el cambio al github
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) git init
+
+2) git status (for checking status)
+
+3) git add . (add all the change file (.))
+
+4) git commit -m "<pass your comment>"
+
+5) git remote add origin "<pass your project clone url>"
+
+6) git pull --allow-unrelated-histories "<pass your project clone url>" master
+
+7) git push -u "<pass your project clone url>" master
